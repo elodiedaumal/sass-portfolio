@@ -5,10 +5,12 @@ import Contact from './pages/Contact';
 import Blog from './pages/Blog';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
+import Sidecomponent from './components/Sidecomponent';
 
 function App() {
   return (
     <Router>
+      <Sidecomponent />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='about' element={<About />} />
